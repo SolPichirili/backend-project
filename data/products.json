@@ -1,0 +1,32 @@
+[
+    {
+      "nombre": "Saladitos x 12",
+      "descripcion": "Canapes varios.",
+      "codigo": "254",
+      "foto": "https://i.ytimg.com/vi/WIPg7_st9qo/maxresdefault.jpg",
+      "precio": "$1000",
+      "stock": "200",
+      "id": "1",
+      "timestamp": 1635793686799
+    },
+    {
+      "nombre": "Sanguches de miga x 16",
+      "descripcion": "Sanguches de dos variedades a elección.",
+      "codigo": "306",
+      "foto": "https://placeralplato.com/files/2015/05/Receta-de-sndwiches-de-miga.jpg",
+      "precio": "$1200",
+      "stock": "1000",
+      "id": "2",
+      "timestamp": 1635793706080
+    },
+    {
+      "nombre": "Chips x 12",
+      "descripcion": "Sanguchitos tipo pebete de gustos varios.",
+      "codigo": "120",
+      "foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHwHORhFLEEubrG5dDBdx2LKstT1FhDzcTmg&usqp=CAU",
+      "precio": "$1300",
+      "stock": "500",
+      "id": "3",
+      "timestamp": 1635793722263
+    }
+  ]

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <%- include('../partials/head.ejs' ); %>
+        <title>Home</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Bienvenide <%= email %> <button class="btn btn-primary"
+                    onclick="location.href='/logout'">Desloguear</button></h1>
+        <h2>Agregar producto al carrito</h2>
+        <label>Elija su carrito:</label>
+        <select class="form-select" aria-label="Default select example" name="carritos" id="carritos"></select>
+        <label>Elija sus productos:</label>
+        <select class="form-select" aria-label="Default select example" id="productos" name="productos"></select>
+        <div id="carrito"></div>
+        <button class="btn btn-primary" id="btnCrearCarrito">Crear Carrito</button>
+        <button class="btn btn-primary" id="btnAgregarAlCarrito">Agregar producto</button>
+        <button class="btn btn-primary" id="btnFinalizarCompra">Finalizar compra</button>
+    </div>
+
+    <div class="container">
+        <h3>Puede agregar una foto aquí:</h3>
+        <form action="/uploadfile" enctype="multipart/form-data" method="post">
+            <input type="file" name="myFile">
+            <button class="btn btn-primary" type="submit">Subir Imagen</button>
+        </form>
+    </div>
+
+    <script src="/js/index.js"></script>
+</body>
+
+</html>
