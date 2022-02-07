@@ -1,3 +1,5 @@
+require('dotenv').config();
+
 const options = {
     mongodb: {
         url: process.env.MONGO_URL,

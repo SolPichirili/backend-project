@@ -36,3 +36,12 @@ img {
     height: 100%;
     text-align: center;
 }
+
+.login{
+    color: white;
+    text-decoration: none;
+}
+
+.login:hover{
+    color: white;
+}
